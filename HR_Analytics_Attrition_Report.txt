@@ -1,0 +1,35 @@
+HR Analytics – Predict Employee Attrition
+==========================================
+
+Objective:
+----------
+Predict whether an employee will leave the company using HR analytics.
+
+Tools:
+------
+Python, Pandas, Matplotlib, Seaborn, scikit-learn, XGBoost, Google Colab
+
+Dataset Summary:
+----------------
+- Source: IBM HR Dataset
+- Features: Age, Job Role, Department, Income, Overtime, Satisfaction Levels, etc.
+- Target: Attrition (Yes/No)
+
+Steps Performed:
+----------------
+1. Data Cleaning
+2. EDA (Attrition Rates, Job Role analysis, OverTime impact)
+3. Data Encoding and Scaling
+4. ML Models: Logistic Regression, Random Forest, XGBoost
+5. Model Comparison
+6. Feature Importance
+7. Final Insights
+
+Best Model: XGBoost
+--------------------
+- Accuracy: ~91%
+- Top Features: OverTime, JobSatisfaction, MonthlyIncome, YearsAtCompany
+
+Conclusion:
+-----------
+This project successfully identified key attrition indicators. The model can help HR proactively prevent employee churn.
